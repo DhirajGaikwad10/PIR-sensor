@@ -21,7 +21,7 @@ This project interfaces PIR sensor with an ESP8266 (NodeMCU) to detect the motio
 
 
 ## Circuit Diagram
-- Connect the ultrasonic sensor and ESP8266 as follows:
+- Connect the PIR Sensor and ESP8266 as follows:
   - VCC -> 3.3V
   - GND -> GND
   - pirPin-> D5
@@ -48,9 +48,16 @@ This project interfaces PIR sensor with an ESP8266 (NodeMCU) to detect the motio
 - while (WiFi.status() != WL_CONNECTED) { ... }: Waits until the ESP8266 successfully connects to the WiFi network, printing dots (.) to indicate connection progress.
 
 ### Main Loop:
-- To read distance we have to create pulse by making trigPin low and then high for 10 milisecond.
-- Calculate distance by muiltiplying duration with 0.034 (speed of sound) and dividing by 2.
-- Print distance to serial monitor
-- Write data to thingspeak account
-- vatanyacha gol dana 
+- val = digitalRead(pirPin);: Reads the current state of the PIR sensor. val will be HIGH if motion is detected and LOW if no motion is detected.
+- if (val == HIGH) { ... } else { ... }: Checks if the PIR sensor detects motion (val == HIGH).
+- Motion Detected (val == HIGH):
+   If pirState is LOW (meaning no previous motion was detected):
+   Prints "Motion detected!" to the serial monitor.
+   Sets pirState to HIGH to indicate motion is now detected.
+-No Motion Detected (val == LOW):
+   If pirState is HIGH (meaning previous motion was detected):
+   Prints "Motion ended!" to the serial monitor.
+   Sets pirState to LOW to indicate no motion is currently detected.
+- Sends the updated Data to ThingSpeak on the specified channel and field 
+  
   
