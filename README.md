@@ -51,5 +51,6 @@ This project interfaces PIR sensor with an ESP8266 (NodeMCU) to detect the motio
 - To read distance we have to create pulse by making trigPin low and then high for 10 milisecond.
 - Calculate distance by muiltiplying duration with 0.034 (speed of sound) and dividing by 2.
 - Print distance to serial monitor
-- Write data to thingspeak account 
+- Write data to thingspeak account
+- vatanyacha gol dana 
   
