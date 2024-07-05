@@ -6,7 +6,7 @@
 3. [Circuit Diagram](#circuit-diagram)
 4. [Software Required](#software-required)
 5. [Libraries Requried](#libraries-requried)
-6. [Project Flow](#project-flow)
+6. [Overview of Code ](#overview-of-Code)
 7. [Output](#output)
 
 ## Overview
@@ -34,7 +34,7 @@ This project interfaces PIR sensor with an ESP8266 (NodeMCU) to detect the motio
 - DNSServer
 - Arduino
 
-## Project Flow
+## Overview of Code 
 
 ### Serial Communication Setup:
 - Serial.begin(115200): Initializes serial communication at a baud rate of 115200 for debugging purposes
