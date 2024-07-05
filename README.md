@@ -17,8 +17,6 @@ This project interfaces PIR sensor with an ESP8266 (NodeMCU) to detect the motio
 - Breadboard and jumper wires
 - USB cable 
 
-  ## Flow Chart
-
 
 ## Circuit Diagram
 - Connect the PIR Sensor and ESP8266 as follows:
