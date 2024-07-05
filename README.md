@@ -12,7 +12,7 @@
 ## Overview
 This project interfaces PIR sensor with an ESP8266 (NodeMCU) to detect the motion and upload the data to ThingSpeak.
 
-## components
+## Components Required
 - ESP8266 NodeMCU
 - PIR Sensor
 - Breadboard and jumper wires
