@@ -58,6 +58,6 @@ This project interfaces PIR sensor with an ESP8266 (NodeMCU) to detect the motio
 
  ## Output
 - Link of Thingspeak channel Data :
-- 
+   https://api.thingspeak.com/channels/2589080/feeds.json?results=2 
   
   
