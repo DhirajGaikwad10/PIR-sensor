@@ -5,7 +5,9 @@
 2. [Components Required](#components)
 3. [Circuit Diagram](#circuit-diagram)
 4. [Software Required](#software-required)
-5. [Project Flow](#project-flow)
+5. [Libraries Requried](#libraries-requried)
+6. [Project Flow](#project-flow)
+7. [Output](#output)
 
 ## Overview
 This project interfaces PIR sensor with an ESP8266 (NodeMCU) to detect the motion and upload the data to ThingSpeak.
@@ -53,5 +55,9 @@ This project interfaces PIR sensor with an ESP8266 (NodeMCU) to detect the motio
    Prints "Motion ended!" to the serial monitor.
    Sets pirState to LOW to indicate no motion is currently detected.
 - Sends the updated Data to ThingSpeak on the specified channel and field 
+
+ ## Output
+- Link of Thingspeak channel Data :
+- 
   
   
