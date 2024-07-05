@@ -3,10 +3,9 @@
 
 1. [Overview](#overview)
 2. [Components Required](#components)
-3. [Flow Chart](#flow-chart)
-4. [Circuit Diagram](#circuit-diagram)
-5. [Software Required](#software-required)
-6. [Project Flow](#project-flow)
+3. [Circuit Diagram](#circuit-diagram)
+4. [Software Required](#software-required)
+5. [Project Flow](#project-flow)
 
 ## Overview
 This project interfaces PIR sensor with an ESP8266 (NodeMCU) to detect the motion and upload the data to ThingSpeak.
@@ -19,7 +18,7 @@ This project interfaces PIR sensor with an ESP8266 (NodeMCU) to detect the motio
 
 
 ## Circuit Diagram
-![Circuit Diagram](./
+![Circuit Diagram](./image/PIRSensor.png)
 
 ## Software Required
 - [VS Code](https://code.visualstudio.com/)
