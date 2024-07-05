@@ -19,10 +19,7 @@ This project interfaces PIR sensor with an ESP8266 (NodeMCU) to detect the motio
 
 
 ## Circuit Diagram
-- Connect the PIR Sensor and ESP8266 as follows:
-  - VCC -> 3.3V
-  - GND -> GND
-  - pirPin-> D5
+![Circuit Diagram](./
 
 ## Software Required
 - [VS Code](https://code.visualstudio.com/)
