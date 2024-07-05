@@ -2,10 +2,10 @@
 ## Content
 
 1. [Overview](#overview)
-2. [Components Required](#components)
+2. [Components Required](#components-required)
 3. [Circuit Diagram](#circuit-diagram)
 4. [Software Required](#software-required)
-5. [Libraries Requried](#libraries-requried)
+5. [Libraries Required](#libraries-required)
 6. [Overview of Code ](#overview-of-Code)
 7. [Output](#output)
 
@@ -27,7 +27,7 @@ This project interfaces PIR sensor with an ESP8266 (NodeMCU) to detect the motio
 - [PlatformIO](https://platformio.org/)
 - [ThingSpeak Account](https://thingspeak.com/)
 
-## Libraries Requried
+## Libraries Required
 - ESP8266WiFi
 - ESP8266WebServer
 - ThingSpeak
